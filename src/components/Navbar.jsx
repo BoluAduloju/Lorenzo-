@@ -12,35 +12,51 @@ const Navbar = () => {
     }
 
   return (
-<nav className="border-b-2">
-    <div className="max-w-7xl mx-auto flex justify-between item-center py-8">
-        <div className="pl-2">
-            <a href="#"> 
-              <p className="font-bold font-serif text-4xl">LORENZO.</p>
-            </a>
-        </div>
-        <div className="md:hidden">
-            <button onClick={toggleMenu} className="text-2xl pr-2 focus:outline-none" aria-label={isOpen ? "Open menu" : "Close menu"}>
-                {isOpen ? <RiCloseLargeFillIcon /> : <RiMenu3LineIcon />}
-            </button>
-        </div>
-        <div className="hidden md:flex space-x-8 md:space-x-4 pr-2">
-            {LINKS.map((Link,Index) => (
-                <a key={Index} href={Link.link} className="uppercase text-sm font-medium">
-                    {Link.name}
-                </a>
-            ))}
-        </div>
-    </div>
 
-    <div className={`${isOpen ? "block" : "hidden"} md:hidden absolute bg-neutral-50 w-full py-5 px-4 border-b-4`}>
-        {LINKS.map((link,index) => {
-            <a key={index} href={link.link} className="uppercase text-lg font-medium block py-2 tracking-wide">
-                {link.name}
-            </a>
-        })}
-    </div> 
-</nav>
+   <nav className = "sticky top-0 z-50 py-3 backdrop-blur-lg boder-b border-neutral-700/80">
+        <div className=" container px-4 mx-auto relative text-sm">
+            <div className="flex justify-between item-center mt-2">
+                        <div className="flex item-center flex-shrink-0">
+                                <a href="#"> 
+                                    <p className="font-bold font-serif lg:text-2xl tracking-tight">LORENZO.</p>
+                                </a>
+                        </div>   
+                        <div className="md:hidden">
+                           <button onClick={toggleMenu} className="text-2xl pr-2 focus:outline-none" aria-label=      {isOpen ? "Open menu" : "Close menu"}>
+                           {isOpen ? <RiCloseLargeFillIcon /> : <RiMenu3LineIcon />}
+                           </button>
+                        </div>     
+                        <ul className="hidden lg:flex ml-14 space-x-12 mt-2">
+                            {LINKS.map((Link,Index) => (
+                                <li key={Index}>
+                                   <a href={Link.link}>{Link.name} </a>
+                                </li>
+                               
+                            ))}
+                        </ul>
+                        <div className="hidden lg:flex justify-center space-x-12 items-center">
+                            <a href="#" className="py-2 px-3 border rounded-md font-medium">
+                                Book a Call
+                            </a>
+                        </div>
+            </div>
+            {isOpen && (
+                <div className="fixed right-0 z-20 bg-slate-50 w-full h-lvh p-12 flex flex-col justify-center items-center lg:hidden">
+                    <ul>
+                        {LINKS.map((Link, Index) => (
+                            <li key={Index} className="py-4">
+                                <a href={Link.link}>{Link.name}</a>
+                            </li>
+                        ))}
+                    </ul>
+                    <div className="flex space-x-6">
+                        <a href="#" className="py-2 px-3 border rounded-md bg-black text-white cursor-pointer">Book a Call</a>
+                    </div>
+                </div>
+            )}
+        </div>        
+    </nav>
+   
   )
 }
 

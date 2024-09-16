@@ -1,4 +1,4 @@
-import hero from "../assets/hero.webp";
+import hero from "../assets/hero1.jpg";
 import kitchenImage from "../assets/kitchen.webp";
 import bathroomImage from "../assets/bathroom.webp";
 import livingRoomImage from "../assets/living-room.webp";
@@ -23,8 +23,8 @@ export const LINKS = [
     link: "#services",
   },
   {
-    name: "Portfolio",
-    link: "#portfolio",
+    name: "Projects",
+    link: "#projects",
   },
   {
     name: "About",
@@ -41,8 +41,8 @@ export const LINKS = [
 ];
 
 export const HERO_CONTENT = {
-  title: "LORENZO",
-  subtitle: "Redefining Your Space with Elegance and Timeless Creativity",
+  title: "Transforming Your Space with Elegance and Timeless Creativity.",
+  subtitle: "Elevate your space into a modern masterpieces, with our team of expert designers' functional and aesthetic design and space planning",
   image: hero,
 };
 
