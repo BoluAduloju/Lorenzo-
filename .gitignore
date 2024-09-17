@@ -25,5 +25,5 @@ dist-ssr
 
 
 
-
+text-xl lg:text-3xl tracking-tight mt-20 mb-12 text-center
 

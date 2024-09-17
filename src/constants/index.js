@@ -3,12 +3,12 @@ import kitchenImage from "../assets/workspace.jpg";
 import bathroomImage from "../assets/resturant.jpg";
 import livingRoomImage from "../assets/hero.jpg";
 
-import portfolio1 from "../assets/portfolio1.webp";
-import portfolio2 from "../assets/portfolio2.webp";
-import portfolio3 from "../assets/portfolio3.webp";
-import portfolio4 from "../assets/portfolio4.webp";
-import portfolio5 from "../assets/portfolio5.webp";
-import portfolio6 from "../assets/portfolio6.webp";
+import project1 from "../assets/pro1.jpg";
+import project2 from "../assets/pro2.jpg";
+import project3 from "../assets/pro3.jpg";
+import project4 from "../assets/pro4.jpg";
+import project5 from "../assets/pro5.jpg";
+import project6 from "../assets/pro6.jpg";
 
 import user1 from "../assets/user1.webp";
 import user2 from "../assets/user2.webp";
@@ -70,72 +70,72 @@ export const SERVICES_CONTENT = [
   },
 ];
 
-export const PORTFOLIO_PROJECTS = [
+export const PROJECTS_CONTENT = [
   {
     id: 1,
-    name: "Modern Kitchen Renovation",
+    name: "Cravings Eatery",
     description:
-      "A complete overhaul of a traditional kitchen, featuring custom cabinetry, granite countertops, and state-of-the-art appliances.",
-    image: portfolio1,
+      "Complete interior design project done with great focus on customer-friendly design as well as visually appealing,increasing their recurring customers percentage by 200%.",
+    image: project1,
     link: "#",
   },
   {
     id: 2,
-    name: "Luxurious Bathroom Remodel",
+    name: "GetFit Gym",
     description:
-      "Transformed an outdated bathroom into a spa-like retreat with marble tiling, a glass shower, and modern fixtures.",
-    image: portfolio2,
+      "Renovated a gym center completely into modern masterpiece, increasing their subscription revenue 5x",
+    image: project2,
     link: "#",
   },
   {
     id: 3,
-    name: "Outdoor Living Space",
+    name: "SynergyHub",
     description:
-      "Designed a beautiful outdoor living area, complete with a pergola, fire pit, and cozy seating for entertainment.",
-    image: portfolio3,
+      "Designed a beautiful co-working space for our client, including conference rooms, offices and also recreation spots.",
+    image: project3,
     link: "#",
   },
   {
     id: 4,
-    name: "Elegant Living Room Update",
+    name: "Hair by Eve",
     description:
-      "Updated a living room with new flooring, stylish lighting, and custom-built shelving units.",
-    image: portfolio4,
+      "Worked with a solo-founder to rebrand her Salon into a beauty center that her brand represent",
+    image: project4,
     link: "#",
   },
   {
     id: 5,
-    name: "Basement Conversion",
+    name: "Bar 1809",
     description:
-      "Converted an unused basement into a modern, multi-functional space including a home theater, gym, and guest bedroom.",
-    image: portfolio5,
+      "Transformed a small relaxation center for our client into a space that severs multiple purpose through our quality space planning and modern decor  .",
+    image: project5,
     link: "#",
   },
   {
     id: 6,
-    name: "Home Office Transformation",
+    name: "Julian Estate",
     description:
-      "Created a sleek and functional home office, optimizing space with ergonomic furniture, ample storage, and modern decor.",
-    image: portfolio6,
+      "Created a sleek and functional interior design, for a 34 unit bungalow for our client, which she sold out before completion for other units due to how much people love our work.",
+    image: project6,
     link: "#",
   },
 ];
 
 export const REVIEWS = {
-  text: "Hear what our clients have to say about their experiences with VastuSpaze. We take pride in our work and are committed to delivering top-notch home renovation services.",
+  text: "Hear what our clients have to say about their experiences with Lorenzo. We take pride in our work and are committed to delivering top-notch home renovation services.",
   reviews: [
     {
       name: "Mia Johnson",
       title: "Homeowner",
       review:
-        "VastuSpaze transformed our outdated kitchen into a modern masterpiece. The team was professional, attentive to our needs, and delivered beyond our expectations. We couldn't be happier with the results!",
+        "Lorenzo transformed our outdated kitchen into a modern masterpiece. The team was professional, attentive to our needs, and delivered beyond our expectations. We couldn't be happier with the results!",
       image: user1,
     },
     {
       name: "Bob Jones",
       title: "Homeowner",
       review:
-        "Our bathroom renovation was seamless, thanks to VastuSpaze. They took care of everything from design to execution, and the attention to detail was impeccable. Highly recommended!",
+        "Our bathroom renovation was seamless, thanks to Lorenzo. They took care of everything from design to execution, and the attention to detail was impeccable. Highly recommended!",
       image: user2,
     },
     {
