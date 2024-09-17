@@ -2,9 +2,9 @@ import { HERO_CONTENT } from "../constants"
 
 const Hero = () => {
   return (
-   <section className="max-w-7xl mx-auto pt-1 border-b-2">
+   <section className="max-w-7xl mx-auto pt-1 mb-20">
      <div className="flex flex-col items-center my-8">
-        <h1 className="text-4xl lg:text-7xl sm:text-6xl p-2 text-center tracking-wide">
+        <h1 className="text-4xl lg:text-7xl sm:text-6xl p-2 text-center tracking-tighter leading-10 ">
             {HERO_CONTENT.title}
         </h1>
         <p className="mt-5 text-lg text-center text-black-500 max-w-4xl">

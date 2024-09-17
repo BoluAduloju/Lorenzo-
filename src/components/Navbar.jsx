@@ -21,7 +21,7 @@ const Navbar = () => {
                                     <p className="font-bold font-serif lg:text-2xl tracking-tight">LORENZO.</p>
                                 </a>
                         </div>   
-                        <div className="md:hidden">
+                        <div className="lg:hidden">
                            <button onClick={toggleMenu} className="text-2xl pr-2 focus:outline-none" aria-label=      {isOpen ? "Open menu" : "Close menu"}>
                            {isOpen ? <RiCloseLargeFillIcon /> : <RiMenu3LineIcon />}
                            </button>

@@ -1,7 +1,7 @@
 import hero from "../assets/hero1.jpg";
-import kitchenImage from "../assets/kitchen.webp";
-import bathroomImage from "../assets/bathroom.webp";
-import livingRoomImage from "../assets/living-room.webp";
+import kitchenImage from "../assets/workspace.jpg";
+import bathroomImage from "../assets/resturant.jpg";
+import livingRoomImage from "../assets/hero.jpg";
 
 import portfolio1 from "../assets/portfolio1.webp";
 import portfolio2 from "../assets/portfolio2.webp";
@@ -42,31 +42,31 @@ export const LINKS = [
 
 export const HERO_CONTENT = {
   title: "Transforming Your Space with Elegance and Timeless Creativity.",
-  subtitle: "Elevate your space into a modern masterpieces, with our team of expert designers' functional and aesthetic design and space planning",
+  subtitle: "Elevate your space into a modern masterpieces, with our team of exesigners' functional and aesthetic design and space planning",
   image: hero,
 };
 
 export const SERVICES_CONTENT = [
   {
-    title: "Kitchen Renovation",
+    title: "Workspaces Interior Design",
     description:
-      "Transform your kitchen into a modern, functional space with our comprehensive renovation services. From custom cabinetry to state-of-the-art appliances, we handle all aspects of kitchen remodeling.",
+      "We provide conducsive environment that stirs creativity and productivity with our intuitive and innovative design process both startups and big-tech companies",
     image: kitchenImage,
-    alt: "Kitchen Renovation",
+    alt: "Workspaces interior design",
   },
   {
-    title: "Bathroom Renovation",
+    title: "Commercial Interior Design",
     description:
-      "Create a spa-like retreat in your home with our bathroom renovation services. We offer luxurious fixtures, custom tiling, and innovative designs to elevate your bathroom experience.",
+      "We offer aestheically appealing interior designs that improves the uniqueness of businesses and brands from Resturants, Hotels, Salons, Gym to other commercial buildings.",
     image: bathroomImage,
-    alt: "Bathroom Renovation",
+    alt: "Commercial interior design",
   },
   {
-    title: "Living Room Renovation",
+    title: "Home Interior Design",
     description:
-      "Update your living room with our expert renovation services. We offer custom designs, new flooring options, and stylish lighting solutions to create a warm and inviting space for your family and guests.",
+      "Our attention to details, makes us stands out when designing comfortable family living space with obsession to other area of the home such as the kitchen, bathroom, lounge and bedroom, fostering companionship ",
     image: livingRoomImage,
-    alt: "Living Room Renovation",
+    alt: "Home interior design",
   },
 ];
 
