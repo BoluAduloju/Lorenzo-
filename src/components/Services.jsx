@@ -12,7 +12,7 @@ const Services = () => {
                 </div>
                 <div className={` lg:w-1/2 flex flex-col self-center ${ index % 2 === 0 ? "lg:pl-12" : "lg:pr-12"}`}>
                      <h3 className=" text-xl lg:text-2xl font-medium mb-2">{service.title}</h3>
-                     <p className="mb-4 lg:tracking-wide text-lg lg:text-xl lg:leading-9">{service.description}</p>
+                     <p className="mb-4 lg:tracking-wide text-lg lg:text-xl lg:leading-7">{service.description}</p>
                 </div>
             </div>
         ))}
