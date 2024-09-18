@@ -1,6 +1,6 @@
 import hero from "../assets/hero1.jpg";
-import kitchenImage from "../assets/workspace.jpg";
-import bathroomImage from "../assets/resturant.jpg";
+import workspaceImage from "../assets/workspace.jpg";
+import resturantImage from "../assets/resturant.jpg";
 import livingRoomImage from "../assets/hero.jpg";
 
 import project1 from "../assets/pro1.jpg";
@@ -16,6 +16,9 @@ import user3 from "../assets/user3.webp";
 import user4 from "../assets/user4.webp";
 import user5 from "../assets/user5.webp";
 import user6 from "../assets/user6.webp";
+
+
+
 
 export const LINKS = [
   {
@@ -51,14 +54,14 @@ export const SERVICES_CONTENT = [
     title: "Workspaces Interior Design",
     description:
       "We provide conducsive environment that stirs creativity and productivity with our intuitive and innovative design process both startups and big-tech companies",
-    image: kitchenImage,
+    image: workspaceImage,
     alt: "Workspaces interior design",
   },
   {
     title: "Commercial Interior Design",
     description:
       "We offer aestheically appealing interior designs that improves the uniqueness of businesses and brands from Resturants, Hotels, Salons, Gym to other commercial buildings.",
-    image: bathroomImage,
+    image: resturantImage,
     alt: "Commercial interior design",
   },
   {
