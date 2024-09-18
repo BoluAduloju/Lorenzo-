@@ -176,7 +176,7 @@ export const CONTACT_INFO = {
   text: "Have questions or need more information? Get in touch with us, and we ll be happy to assist you.",
   phone: {
     label: "Phone",
-    value: "(99) 456-7890",
+    value: "(99) 456-789-850",
   },
   email: {
     label: "Email",
@@ -184,6 +184,6 @@ export const CONTACT_INFO = {
   },
   address: {
     label: "Address",
-    value: "45 Hoston Ave, Suite 100, Delaware,US",
+    value: "45 Hoston Ave, Delaware, United State",
   },
 };
