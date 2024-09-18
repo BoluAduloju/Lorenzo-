@@ -125,48 +125,48 @@ export const PROJECTS_CONTENT = [
 ];
 
 export const REVIEWS = {
-  text: "Hear what our clients have to say about their experiences with Lorenzo. We take pride in our work and are committed to delivering top-notch home renovation services.",
+  text: "Hear what our clients have to say about their experiences with Lorenzo. We take pride in our work and are committed to delivering top-notch interior design services.",
   reviews: [
-    {
-      name: "Mia Johnson",
-      title: "Homeowner",
-      review:
-        "Lorenzo transformed our outdated kitchen into a modern masterpiece. The team was professional, attentive to our needs, and delivered beyond our expectations. We couldn't be happier with the results!",
-      image: user1,
-    },
     {
       name: "Bob Jones",
       title: "Homeowner",
       review:
-        "Our bathroom renovation was seamless, thanks to Lorenzo. They took care of everything from design to execution, and the attention to detail was impeccable. Highly recommended!",
+        "Lorenzo transformed our outdated home interior into a modern masterpiece. The team was professional, attentive to our needs, and delivered beyond our expectations. We couldn't be happier with the results!",
+      image: user1,
+    },
+    {
+      name: "Mia Johnson",
+      title: "COO at travelWise",
+      review:
+        "Our Office renovation was seamless, thanks to Lorenzo. They took care of everything from design to execution, and the attention to detail was impeccable. Highly recommended!",
       image: user2,
     },
     {
       name: "Carlos Mendes",
-      title: "Homeowner",
+      title: "Gym Instructor and Owner",
       review:
-        "Lorenzo helped us create the perfect outdoor living space. Their creativity and craftsmanship turned our backyard into a beautiful oasis. It's now our favorite place to relax and entertain guests.",
+        "Lorenzo helped us create the perfect Gym space. Their creativity and craftsmanship turned our fitness hub into a beautiful oasis. We are now a go-to place for many in our neighbourhood.",
       image: user3,
     },
     {
       name: "David Yu",
-      title: "Homeowner",
+      title: "Real Estate Developer",
       review:
-        "The living room update exceeded our expectations. Lorenzo's team was skilled and communicative, ensuring a smooth renovation process. The new design has brought a fresh, modern look to our home.",
+        "The interior design for our units of apartments exceeded our expectations. Lorenzo's team were skilled and communicative, ensuring a smooth design process.",
       image: user4,
     },
     {
-      name: "Ella Anderson",
-      title: "Homeowner",
+      name: "John Simson",
+      title: "CEO at Vanguard",
       review:
-        "From start to finish, Lorenzo was a pleasure to work with. They listened to our vision and brought it to life with expert craftsmanship. Our home office is now a stylish and functional space.",
+        "From start to finish, Lorenzo was a pleasure to work with. They listened to our vision and brought it to life with expert craftsmanship. Our office is now a stylish and functional space.",
       image: user5,
     },
     {
-      name: "John Simson",
-      title: "Homeowner",
+      name: "Ella Anderson",
+      title: "Stage-play Director",
       review:
-        "Lorenzo did an amazing job on our basement conversion. They created a cozy, multi-functional space that our family loves. The team was professional and delivered on time and within budget.",
+        "Lorenzo did an amazing job on our recent project. They created a cozy, multi-functional space that communicated our story. The team was professional and delivered on time and within budget.",
       image: user6,
     },
   ],

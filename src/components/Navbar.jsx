@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import RiCloseLargeFillIcon from 'remixicon-react/CloseLineIcon';
 import RiMenu3LineIcon from 'remixicon-react/Menu3LineIcon';
-import {LINKS} from '../constants/index'
+import {LINKS} from '../constants'
 
 const Navbar = () => {
 
@@ -35,7 +35,7 @@ const Navbar = () => {
                             ))}
                         </ul>
                         <div className="hidden lg:flex justify-center space-x-12 items-center">
-                            <a href="#" className="py-2 px-3 border rounded-md font-medium">
+                            <a href="#" className="py-2 px-3 border border-neutral-950 rounded-md font-medium">
                                 Book a Call
                             </a>
                         </div>
