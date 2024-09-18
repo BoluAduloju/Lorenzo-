@@ -164,7 +164,7 @@ export const REVIEWS = {
     },
     {
       name: "Ella Anderson",
-      title: "Stage-play Director",
+      title: "Stage-Play Director",
       review:
         "Lorenzo did an amazing job on our recent project. They created a cozy, multi-functional space that communicated our story. The team was professional and delivered on time and within budget.",
       image: user6,

@@ -4,6 +4,7 @@ import Services from "./components/Services";
 import Projects from "./components/Projects";
 import About from "./components/About";
 import Reviews from "./components/Reviews";
+import Contacts from "./components/Contacts";
 
 
 
@@ -17,6 +18,7 @@ const App = () => {
      <Projects />
      <About />
      <Reviews />
+     < Contacts />
     </main>
   )
 }
