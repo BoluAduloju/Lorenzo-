@@ -5,6 +5,7 @@ import Projects from "./components/Projects";
 import About from "./components/About";
 import Reviews from "./components/Reviews";
 import Contacts from "./components/Contacts";
+import Footer from "./components/Footer";
 
 
 
@@ -19,6 +20,7 @@ const App = () => {
      <About />
      <Reviews />
      < Contacts />
+     <Footer />
     </main>
   )
 }
