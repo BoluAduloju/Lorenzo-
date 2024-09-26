@@ -45,7 +45,7 @@ export const LINKS = [
 
 export const HERO_CONTENT = {
   title: "Transforming Your Space with Elegance and Timeless Creativity.",
-  subtitle: "Elevate your space into a modern masterpieces, with our team of exesigners' functional and aesthetic design and space planning",
+  subtitle: "Elevate your space into a modern masterpieces, with our team of designers' functional and aesthetic designs and space planning",
   image: hero,
 };
 
